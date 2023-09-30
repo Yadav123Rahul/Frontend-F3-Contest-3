@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.showData{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: grid;
+}
+.showData>h1,p{
+    padding: 10px 20px 0 20px;
+}
+.showData>img{
+    width: 100%;
+    padding: 20px;
+}
+.search-box{
+    margin: 20px;
+}
+.search-box>label{
+    padding: 5px;
+}
+#search{
+    border: 1px solid grey;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.prev-searches{
+    margin: 20px;
+    padding: 10px 0;
+}
+#search-history>li{
+    color: rgb(32, 32, 142);
+    text-decoration: underline;
+}
+#search-history>li:hover{
+    cursor: pointer;
+}
